@@ -35,7 +35,7 @@ The main objectives of this project are to:
 
 | KPI | Result |
 |---|---:|
-| Total Chart Records | 27,750 |
+| Total Chart Records | 27,800 |
 | Unique Artists | 343 |
 | Unique Songs | 803 |
 | Average Popularity | 86.79 |
@@ -252,7 +252,7 @@ The dashboard will open automatically in your web browser.
 
 The analyzed dataset contains:
 
-- **27,750 chart records**
+- **27,800 chart records**
 - **343 unique artists**
 - **803 unique songs**
 - **86.79 average popularity**
