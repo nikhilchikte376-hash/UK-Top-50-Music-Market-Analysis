@@ -4,9 +4,9 @@
 
 The **UK Top 50 Music Market Analysis** is an interactive data analytics project designed to explore patterns and trends within the UK music charts.
 
-The project analyzes **27,800 chart records** to understand artist performance, song popularity, chart rankings, track duration, and explicit-content distribution.
+The project analyzes **27,800 chart records** to understand artist performance, song popularity, chart rankings, track duration, explicit-content distribution, and overall market diversity.
 
-Using **Python, Pandas, Matplotlib, and Streamlit**, the project transforms raw music chart data into meaningful insights through exploratory data analysis and an interactive market intelligence dashboard.
+Using **Python, Pandas, NumPy, Matplotlib, and Streamlit**, the project transforms raw music chart data into meaningful insights through exploratory data analysis and an interactive market intelligence dashboard.
 
 ---
 
@@ -54,17 +54,11 @@ Chart records were analyzed over time to understand how chart activity changes a
 
 The dashboard provides a monthly trend view that dynamically responds to the selected filters.
 
----
-
 ### 2. Top Artists by Chart Appearances
 
 Artist appearances were analyzed to identify performers with a strong and repeated presence in the UK Top 50 chart.
 
-Taylor Swift recorded the highest number of chart appearances in the analyzed dataset.
-
-![Top Artists](Screenshots/02_top_10_artists.png)
-
----
+**Taylor Swift** recorded the highest number of chart appearances in the analyzed dataset.
 
 ### 3. Popularity by Rank Group
 
@@ -76,19 +70,11 @@ Chart positions were divided into three major groups:
 
 Tracks in the **Top 10** show the highest average popularity, indicating a relationship between chart position and popularity within the analyzed dataset.
 
-![Popularity by Rank](Screenshots/03_popularity_rank_group.png)
-
----
-
 ### 4. Track Duration Analysis
 
 Average track duration was compared across different chart rank groups.
 
 Track duration remains relatively similar across the groups, suggesting that song length alone is not a major differentiator of chart performance in this dataset.
-
-![Track Duration](Screenshots/04_track_duration.png)
-
----
 
 ### 5. Explicit Content Analysis
 
@@ -99,41 +85,33 @@ The dataset was analyzed to compare explicit and non-explicit tracks.
 
 Non-explicit tracks represent the majority of records in the analyzed dataset.
 
-![Explicit Content](Screenshots/05_explicit_content.png)
-
----
-
 ### 6. Top Songs by Popularity
 
 Songs were analyzed according to their popularity scores to identify highly popular tracks represented in the dataset.
-
-![Top Songs](Screenshots/06_top_songs.png)
 
 ---
 
 ## 💡 Key Market Insights
 
-### Strong Artist Concentration
+### 🏆 Strong Artist Concentration
 
-A relatively small group of artists accounts for a large number of repeated chart appearances. Taylor Swift has the highest number of appearances in the analyzed dataset.
+A relatively small group of artists accounts for a large number of repeated chart appearances. **Taylor Swift** has the highest number of appearances in the analyzed dataset.
 
-### Popularity and Chart Position
+### 🎯 Popularity and Chart Position
 
 Top 10 tracks have the highest average popularity compared with lower rank groups, showing a relationship between chart position and popularity.
 
-### Track Duration
+### ⏱️ Track Duration
 
 Average track duration remains relatively similar across different rank groups, suggesting that track length alone does not strongly differentiate chart performance.
 
-### Content Mix
+### 🎵 Content Mix
 
 Non-explicit tracks represent the majority of chart records in the analyzed dataset.
 
-### Market Diversity
+### 📊 Market Diversity
 
 The dataset contains **343 unique artists** and **803 unique songs**, representing a broad range of music within the analyzed UK Top 50 market.
-
-![Business Insights](Screenshots/07_business_insights.png)
 
 ---
 
@@ -155,7 +133,7 @@ The dashboard combines KPIs, trends, rankings, content analysis, and dynamically
 - 🎶 Top Songs by Popularity
 - 💡 Dynamic Market Insights
 - 📋 Dataset Summary
-- 🔄 Reset Filters functionality
+- 🔄 Reset Filters Functionality
 
 ### Interactive Filters
 
@@ -168,11 +146,37 @@ Users can dynamically filter the dashboard by:
 
 The KPIs, charts, tables, and insights automatically respond to the selected filters.
 
-![Dashboard Overview](Screenshots/01_dashboard_overview.png)
-
 ### 🔗 Launch Dashboard
 
 👉 [Launch Interactive Streamlit Dashboard](https://uk-top-50-music-market-analysis-ohdnqobw8ume7lhywkchom.streamlit.app/)
+
+---
+
+## 📸 Dashboard Screenshots
+
+### 1. Dashboard Overview
+
+Premium dashboard overview showing interactive filters, dataset information, and key performance indicators.
+
+![Dashboard Overview](Screenshots/01_dashboard_overview.png)
+
+### 2. Market Analysis
+
+Monthly chart activity, leading artists, popularity across rank groups, and explicit vs non-explicit content distribution.
+
+![Market Analysis](Screenshots/02_market_analysis.png)
+
+### 3. Track & Song Analysis
+
+Track-duration patterns, chart-rank distribution, and top-performing songs by popularity.
+
+![Track and Song Analysis](Screenshots/03_track_and_song_analysis.png)
+
+### 4. Business Insights
+
+Dynamic market insights highlighting the leading artist, content mix, popularity patterns, typical track length, and dataset summary.
+
+![Business Insights](Screenshots/04_business_insights.png)
 
 ---
 
@@ -210,13 +214,9 @@ UK-Top-50-Music-Market-Analysis/
 │
 ├── Screenshots/
 │   ├── 01_dashboard_overview.png
-│   ├── 02_top_10_artists.png
-│   ├── 03_popularity_rank_group.png
-│   ├── 04_track_duration.png
-│   ├── 05_explicit_content.png
-│   ├── 06_top_songs.png
-│   ├── 07_business_insights.png
-│   └── 08_dataset_summary.png
+│   ├── 02_market_analysis.png
+│   ├── 03_track_and_song_analysis.png
+│   └── 04_business_insights.png
 │
 ├── Visualizations/
 │   ├── album_size_by_rank.png
@@ -238,7 +238,7 @@ UK-Top-50-Music-Market-Analysis/
 
 ## 📄 Project Report
 
-A detailed project report containing the analysis methodology, findings, visualizations, and conclusions is available in the repository.
+A detailed project report containing the analysis methodology, findings, visualizations, business insights, dashboard development, and conclusions is available in the repository.
 
 📁 `Reports/UK_Top_50_Music_Market_Analysis_Report.pdf`
 
@@ -286,8 +286,6 @@ The analyzed dataset contains:
 
 The dataset includes information related to chart positions, songs, artists, popularity, track duration, album characteristics, collaborations, and explicit content.
 
-![Dataset Summary](Screenshots/08_dataset_summary.png)
-
 ---
 
 ## 📌 Conclusion
@@ -296,7 +294,7 @@ The **UK Top 50 Music Market Analysis** demonstrates how music chart data can be
 
 The analysis highlights artist concentration, popularity differences across chart positions, track-duration patterns, explicit-content distribution, chart activity, and overall market diversity.
 
-The interactive Streamlit dashboard provides a practical way to explore these findings dynamically while demonstrating skills in **data cleaning, exploratory data analysis, data visualization, insight generation, interactive filtering, and dashboard development using Python**.
+The interactive Streamlit dashboard provides a practical way to explore these findings dynamically while demonstrating skills in **data cleaning, exploratory data analysis, data visualization, insight generation, interactive filtering, dashboard development, version control, and cloud deployment**.
 
 ---
 
@@ -306,7 +304,7 @@ The interactive Streamlit dashboard provides a practical way to explore these fi
 
 Data Analytics Project
 
-**Tools:** Python • Pandas • Matplotlib • Streamlit
+**Tools:** Python • Pandas • NumPy • Matplotlib • Streamlit
 
 ### 🔗 Project Links
 
